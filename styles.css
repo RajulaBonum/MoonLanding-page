@@ -1,33 +1,48 @@
+/* General Styling */
+.container-fluid {
+	margin-bottom: 3em;
+}
+
+.hr-1 {
+	border: 3px solid black;
+	border-radius: 3em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	max-width: 10%;
+}
+
+/* Header and Heros section */
 nav {
 	display: flex;
 	justify-content: space-between;
 }
 
 .hero {
-	background-color: orange;
-	background-image: url(images/bg6.jpg);
+	background-color: black;
+	background-image: url(images/bg5.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 80vh;
+	height: 70vh;
 	text-align: center;
-	display: flex;
+	color: black;
+	/*display: flex;
 	flex-direction: column;
-	justify-content: end;
-	border-bottom-right-radius: 7em;
+	justify-content: center;
+	border-bottom-right-radius: 2e;
 	border-top-left-radius: 7em;
+	margin-bottom: 0 !important;*/
 }
 
 .tx-1 {
-	color: black;
+	color: orangered;
 }
 
-.container {
+.tx-2 {
+	color: orange;
 }
 
-.container-fluid {
-	margin-bottom: 4em;
-}
+/* Value proposition section styling */
 
 .v-img {
 	height: 10vh;
@@ -37,9 +52,6 @@ nav {
 	height: 100%;
 }
 
-.row {
-	margin-top: 3em;
-}
 
 .a-cntr {
 	display: flex;
@@ -49,8 +61,8 @@ nav {
 }
 
 .bg-1 {
-	background-color: #c2c2d6;
-	padding: 3em 0;
+	background-color: #fdc181;
+	border-radius: 0 2em 0 2em;
 }
 
 .f-border {
@@ -68,30 +80,9 @@ nav {
 	border: 1px solid whitesmoke;
 }
 
+/* Footer styling */
 footer {
 	margin-bottom: 0 !important;
-}
-
-.c-btn1 {
-	background-color: greenyellow;
-	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 1em;
-	padding: 0.7em;
-	margin: 1em;
-	color: white;
-	box-shadow: 5px 5px 3px greenyellow;
-}
-
-.c-btn2 {
-	background-color: greenyellow;
-	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 1em;
-	padding: 0.7em;
-	margin: 1em;
-	color: white;
-	box-shadow: 5px 5px 3px greenyellow;
 }
 
 .c-img {
@@ -100,4 +91,21 @@ footer {
 
 .c-img img {
 	height: 100%;
+}
+/* Products styling */
+.row {
+	margin-top: 3em;
+}
+
+/* About Card */
+.about-card {
+	background-color: #b55a30;
+	border-radius: 1em;
+	width: 100%;
+	padding: 1em;
+	text-align: left;
+	color: whitesmoke;
+	padding-left: 2em;
+	font-size: 1.2em;
+	margin-bottom: 1em;
 }

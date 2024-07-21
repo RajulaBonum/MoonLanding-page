@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+#installing virtual environment
+pip install virtualenv
+
+#creating a virtual env
+virtualenv venv
+
+#Activating
+source ./venv/bin/activate
+
+#deactivate
+
+
+##Additional Info
+
+export SECRET_KEY="your secret key"

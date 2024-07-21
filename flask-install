@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+#Ensure pip is installed
+pip --version
+
+#install pip
+apt install python3-pip
+
+#Install flask
+pip install flask
+
+#start flask
+python
+import flask
